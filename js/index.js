@@ -45,7 +45,6 @@ for (let link of links) {
 }
 // get data according to the selected link and pass it to index.html
 function ajaxHandle(urlParam) {
-  //if (url == "./partials/home.html"){
     fetch(urlParam)
        .then(function (response) {
           if (response.statusText === "OK") {
@@ -61,5 +60,5 @@ function ajaxHandle(urlParam) {
        .catch(function (err) {
           errorContainer.textContent = `${err.name}: ${err.message}`;
        });
-  } 
+   
       
