@@ -61,4 +61,4 @@ function ajaxHandle(urlParam) {
           errorContainer.textContent = `${err.name}: ${err.message}`;
        });
    
-      
+} 
