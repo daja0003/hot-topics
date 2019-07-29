@@ -35,7 +35,7 @@ function handleLinkClick (ev) {
     //find out which link is clicked
     let currentLink = ev.target;
     let url = currentLink.href;
-    
+    console.log(url);
         ajaxHandle(url);
 
 }
